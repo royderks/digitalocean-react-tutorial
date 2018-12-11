@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-  	fetch('http://localhost:3001/droplets')
+  	fetch('http://localhost:3000/api/droplets')
   	.then(res => res.json())
   	.then(json => json.droplets)
   	.then(droplets => this.setState({ 'droplets': droplets }))
