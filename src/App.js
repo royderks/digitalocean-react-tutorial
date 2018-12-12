@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Table from './components/Table.js';
 import logo from './assets/DO_Logo_icon_blue.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 class App extends Component {
   constructor(props) {
